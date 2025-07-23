@@ -1,0 +1,15 @@
+# Test files
+test-v2-repo/
+test-repo/
+test-output.md
+test_snapshot.sh
+
+# Temporary files
+*.tmp
+*.log
+
+# Claude metadata (but keep hooks)
+.claude/snapshot_metadata/
+.claude/last_snapshot*
+.claude/snapshot.log
+.claude/*.json
